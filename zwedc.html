@@ -53,7 +53,7 @@ tin 2019.05.12
 	<!-- see jQuery versions at https://code.jquery.com/jquery/ -->
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
-	<script src="https://smelly.lbl.gov/src/jquery.csv.js" crossorigin="anonymous"></script>
+	<script src="https://webtool.lbl.gov/src/jquery.csv.js" crossorigin="anonymous"></script>
 
 	<!-- DataTables.net, never used , thus disabling
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
@@ -693,7 +693,7 @@ $( function() {
 <script>
 
 
-//"use strict"     // all variables must be declared.  trying to use less global...   // was not used before in smelly_calc  
+//"use strict"     // all variables must be declared.  trying to use less global...   // was not used before in webtool_calc  
 
 ////////////////////////////////////////////////////////////////////////////////
 //////////////////////// calculator code below /////////////////////////////////
@@ -701,8 +701,7 @@ $( function() {
 var odorCalculatorVisible = false;
 var calculatorMode = "distance";  // "rate" is the other calculator
 
-const rateConstantUrl = "https://smelly.lbl.gov/data/rate_distance_table.csv";          // open in google sheets !! 
-//const rateConstantUrl = "https://smelly.lbl.gov/data/rate_distance_table.head5.csv";   // version starts with alcarta
+const rateConstantUrl = "https://webtool.lbl.gov/data/rate_distance_table.csv";          // open in google sheets !! 
 
 // actually no need to store these below.  HTML DOM automatically store unless page reloaded
 //-var rateInput4distCalc = 5.0;   		  // in ou/s     
@@ -1068,7 +1067,7 @@ var map = new mapboxgl.Map({
     //zoom: 10          // circle filled point data is said to be z0-z10, 10+ will "appear simplified"  // ## TMP
     //zoom: 9		// see most of BAAQMD   // 5mi 
     //zoom: 8		// site-info as polygon said to be good at z0-z8.  8+ will "appear simplified"
-    //~zoom: 6.1  		// see most of CA  	// 50mi    ## smelly overview map ## FIXME come back to this after debug
+    //~zoom: 6.1  		// see most of CA  	// 50mi    ## overview map ## FIXME come back to this after debug
     //zoom: 5.5		// see whole CA
     
 });

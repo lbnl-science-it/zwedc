@@ -1,12 +1,17 @@
 ZWEDC WebTool
 =============
 
-This webtool displays potential odor impact from 
-the Zero Waste Energy Development Company at Alviso, San Jose, CA, an anaerobic digestion waste to biomethane (or electricity) generation site.
+This webtool displays potential odor impact from the 
+Zero Waste Energy Development Company at Alviso, San Jose, CA, 
+an anaerobic digestion waste to biomethane (or electricity) generation site.
 
+Webtool accessible at
+  * https://lbnl-science-it.github.io/zwedc/ - temporary staging
+  * https://zwedc-webtool.github.io/ - pending proposed public access site with DRAFT data
 
 For further infor, please see
 `About <http://zwedc-webtool.lbl.gov/About.html>`_ 
+`About.html <About.html>`_ 
 or contact us: tin (at) lbl.gov   or ljin (at) lbl.gov
 
 Credit

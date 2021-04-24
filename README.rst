@@ -1,6 +1,11 @@
 ZWEDC WebTool
 =============
 
+.. figure:: figures/zwedc_portrait.jpg
+        :align: center
+        :alt: zwedc webtool screenshot
+
+
 This webtool displays potential odor impact from the 
 Zero Waste Energy Development Company at Alviso, San Jose, CA, 
 an anaerobic digestion waste to biomethane (or electricity) generation site.
